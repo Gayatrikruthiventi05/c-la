@@ -1,0 +1,18 @@
+//write a program to print factors count of the given numbers//
+#include<stdio.h>
+main()
+{
+int n,i,c;
+printf("\n Enter the number:");
+scanf("%d",n);
+printf("\n The factors of %d are:",n);
+for(i=1;i<=n;i++)
+{
+	if(n%i==0)
+	{
+	c++;
+	printf("%d ",i);
+	}
+}
+	printf(" \n\n total factors of %d:%d\n",n,c);
+}
